@@ -36,18 +36,7 @@ if 5<= age <= 11:
 	print(f"You go to the primary school.")
 elif 12<= age <= 16:
 	print(f"You go to secondary school.")
-	school = input(f"What school do you go to, {name}?")
-	print(f"I know {activity_place}, this is the great school!")
-if 16<= age <= 18:
-	choice = input(f"Do you go to sixth form or college? (Type 'sixth form' or 'college'): ").lower().strip()
-	if choice == "sixth form":
-		school = input(f"what school did you study at before?")
-		print(f"Oh, {activity_place} sixth form is a great choice!")
-	elif choice == "college":
-		college = input(f"What college do you go to?")
-		print(f"Wow, {college} sounds like a cool place to study")
-	else:
-		print(f"Ah, so you are doing something else! That's awesome.")
+	print(f"I know {activity_place}, this is the great place to study!")
 if 19<= age <=64:
 	choice = input(f"Do you go to an university or job?")
 	if choice == "university":
@@ -65,6 +54,6 @@ user_data = {
 	"likes it": likes_it
 }
 file_name = f"{name.lower().replace(' ', '_')}_info.json"
-with open('user_info.json', 'w') as file:
+with open(file_name, 'w') as file:
 	json.dump(user_data, file, indent =4)
-print("/nAll data saved succesfully!")
+print(f"\nAll data saved succesfully!")
