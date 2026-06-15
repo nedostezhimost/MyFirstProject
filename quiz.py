@@ -52,11 +52,7 @@ class QuizGame:
         print(f"Your final score: {self.score} out of {len(self.questions)}")
 
 if __name__ == "__main__":
-    #make new game object
 	game = QuizGame("questions.txt")
-    #call load questions, member function of game
 	if game.load_questions():
-        #now questions are loaded, game can be played
 		game.play()
-    #Ollie thinks this is stupid, because surely, you ALWAYS want to load the questions for your quiz....
-    #So Ollie wants you to load the questions in the constructor of the quizgame class
+   
