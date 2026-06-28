@@ -10,4 +10,7 @@ while True:
 	if x == 8:
 		print("yooo its eight")
 		break
+	if x == 42:
+		print("rekowerkgwe")
+		break
 print(f"found {x}")
