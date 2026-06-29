@@ -15,4 +15,5 @@ while True:
 		break
 	if x ==  23:
 		print("Michal Jordan and Lebron James play under this number")
+		break
 print(f"found {x}")
