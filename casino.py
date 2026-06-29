@@ -11,6 +11,8 @@ while True:
 		print("yooo its eight")
 		break
 	if x == 42:
-		print("rekowerkgwe")
+		print("this number comes from h2g2")
 		break
+	if x ==  23:
+		print("Michal Jordan and Lebron James play under this number")
 print(f"found {x}")
