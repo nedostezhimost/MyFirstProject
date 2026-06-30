@@ -13,7 +13,10 @@ while True:
 	if x == 42:
 		print("this number comes from h2g2")
 		break
-	if x ==  23:
+	if x == 23:
 		print("Michal Jordan and Lebron James play under this number")
+		break
+	if x == 32:
+		print("32 bits is best")
 		break
 print(f"found {x}")
