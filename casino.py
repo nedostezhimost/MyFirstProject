@@ -1,6 +1,7 @@
 import random
 
 print("casino")
+attempt_counter = 1
 while True:
 	x = random.randint(1,100)
 	print(x)
@@ -19,4 +20,5 @@ while True:
 	if x == 32:
 		print("32 bits is best")
 		break
-print(f"found {x}")
+	attempt_counter = 1 + attempt_counter
+print(f"found {x} in {attempt_counter} times")
